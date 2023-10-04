@@ -1,0 +1,124 @@
+body {
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    color: rgb(255, 255, 255);
+    line-height: 0%;
+}
+.conector{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: salmon;
+    color: white;
+    padding-left: 30px;
+}
+.container{
+    background-color: gray;
+    height: 75vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#buttons{
+    /* margin-top: -450px; */
+    background-color:transparent;
+    height: 280px;
+    width: 280px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    color:transparent;
+}
+.radar{
+    height: 321px;
+    width: 321px;
+    border-radius: 50%;
+    background-color: rgb(73, 73, 139);
+
+}
+#radar{
+    position:relative;
+    overflow:hidden;
+    width:321px; height:321px;
+    background:#222 url(http://i.stack.imgur.com/vY6Tl.png);
+    border-radius: 50%;
+  }
+  #rad{
+    position:absolute;
+    width:321px;
+    height:321px; background:url(http://i.stack.imgur.com/fbgUD.png);
+  }
+  .obj{
+    background:#cf5;
+    position:absolute;
+    border-radius: 50%;
+    width:4px; height:4px; margin:-2px;
+    box-shadow:0 0 10px 5px rgba(100,255,0,0.5);
+    opacity:0.2;
+  }
+  #b1{
+    background-color: yellow;
+    border-radius: 50%;
+    border: transparent;
+    color: white;
+  }
+  #b2{
+    background-color: red;
+    border-radius: 50%;
+    border: transparent;
+    color: white;
+  }
+  #b3{
+    background-color: blue;
+    border-radius: 50%;
+    border: transparent;
+    color: white;
+  }
+  #b4{
+    background-color:chartreuse;
+    border-radius: 50%;
+    border: transparent;
+    color: white;
+  }
+  #s1{
+    background-color:chartreuse;
+    border-radius: 50%;
+    border: transparent;
+    color: transparent;
+    font-size: 16px;
+  }
+  #s2{
+    background-color:chartreuse;
+    border-radius: 50%;
+    border: transparent;
+    color: transparent;
+    font-size: 16px;
+  }
+  #s3{
+    background-color:chartreuse;
+    border-radius: 50%;
+    border: transparent;
+    color: transparent;
+    font-size: 16px;
+  }
+  #s4{
+    background-color:chartreuse;
+    border-radius: 50%;
+    border: transparent;
+    color: transparent;
+    font-size: 16px;
+  }
+  .stop{
+    background-color: red !important;
+  }
+  .go{
+    background-color: green !important;
+  }
