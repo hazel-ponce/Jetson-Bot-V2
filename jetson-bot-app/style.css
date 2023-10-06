@@ -56,6 +56,10 @@ body {
     width:321px;
     height:321px; background:url(http://i.stack.imgur.com/fbgUD.png);
   }
+  #miche{
+    width:321px; height:321px;
+    background:#f30404 url(../img/1iz.png);
+  }
   .obj{
     background:#cf5;
     position:absolute;

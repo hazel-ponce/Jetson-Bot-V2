@@ -11,6 +11,7 @@
   <p class="titulo">Jetson Bot</p>
   <p id="state" class="conector">Conectando..</p>
   <div class="container" >
+        <div id="miche">jshddhjjhdsjjs</div>
         <div id="buttons"><button id="b1" type="button" onmousedown="mouseDown('3')"></button><button id="b2" type="button" onmousedown="mouseDown('4')"></button><button id="b3" type="button" onmousedown="mouseDown('1')"></button><button id="b4" type="button" onmousedown="mouseDown('2')"></button></div>
         <div><button id="s1">------------</button>
           <button id="s2">------------</button>
@@ -18,8 +19,9 @@
           <button id="s4">-------------</button>
           <div id="radar">
             <div id="rad"></div>
+            <div id="miche">bnsxnanxnasxnasxnasnx</div>
             <div class="obj" data-x="120" data-y="75"></div>
-        </div>
+          </div>
         </div>
 </div>
 
@@ -61,7 +63,7 @@
     $buttons.css({transform: 'rotate('+ 45 +'deg)'}); 
   </script>
   <script type="text/javascript">
-    var clientId = 'client_Id_'+ Math.floor(Math.random() * 100000) + 1
+    /*var clientId = 'client_Id_'+ Math.floor(Math.random() * 100000) + 1
     console.log(clientId)
     client = new Paho.MQTT.Client("eee4b1060c10429bac862f1363d1e087.s1.eu.hivemq.cloud",8884,clientId);
     client.onConnectionLost = onConnectionLost;
@@ -132,7 +134,7 @@
       message = new Paho.MQTT.Message(value);
       message.destinationName = "entrada";
       client.send(message);
-    }
+    }*/
   </script>
 
 </body>
